@@ -66,7 +66,7 @@ entry.place(relwidth="0.65",relheight="1")
 # 1st arg= position of element, text=that we want to show     
 # get method in command takes entry only once and does not update on each iteration
 # For resolving this we will use lambda function                
-button1 = tk.Button(frame,text="Get info.",bg="#fff",fg="black",font=('Arial',15),command= lambda:get_weather(entry.get())) 
+button1 = tk.Button(frame,text="Get weather info",bg="#fff",fg="black",font=('Arial',12),command= lambda:get_weather(entry.get())) 
 button1.place(relx=0.7,rely=0,relwidth="0.3",relheight="1")
 
 # creating lower frame
